@@ -1,0 +1,44 @@
+/* Counter */
+#portfolio .hire{
+  text-align: center;
+  color: aliceblue;
+  font-size: 8em;
+  margin-top: 40px;
+ 
+}
+#count-con{
+  /* background: linear-gradient(36deg, rgba(6,10,93,1) 0%, rgba(8,75,88,1) 100%); */
+  /* background: rgb(73, 41, 41); */
+  padding: 60px 10px;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+.counter{
+  padding-top: 160px;
+ 
+}
+div.counter{
+  text-align: center;
+  color: aliceblue;
+  
+}
+.counter h1{
+  font-size: 1.6rem;
+  
+}
+.counter h2{
+  font-size: 1.3rem;
+  
+}
+.counter img{
+  height: 45px;
+  display: block;
+  margin: auto;
+  
+}
+@media(max-width:768px){
+  .counter{
+    margin-bottom: 20px;
+  }
+}

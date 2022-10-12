@@ -1,0 +1,259 @@
+#con-reg{
+    background-color: black;
+}
+#con-text{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+#con-text h1{
+    /* writing-mode: vertical-lr; */
+    /* transform: rotate(180deg);
+    font-size: 6em; */
+}
+#con-text h1{
+    text-align: center;
+   color: transparent;
+   -webkit-text-stroke: 2px #000;
+   background-image: url(../images/b8.png);
+   -webkit-background-clip: text;
+  font-size: 4.4em;
+  letter-spacing: 8px;
+  margin-left: 18px;
+  margin-bottom: 20px;
+  animation: back 25s linear infinite;
+}
+@keyframes back{
+  100%{
+    background-position: 6000px 0px;
+  }
+}
+/* //Footeer */
+#footer-col{
+    text-align: center;
+}
+#footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(252, 253, 253, 0.897);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #05000c;
+	transition: all 0.5s linear;
+    /* animation: anim 0.9s linear infinite; */
+}
+/* @keyframes anim{
+  100%{
+transform: rotate(360deg);
+    }
+   
+} */
+
+#footer-col .social-links a:nth-child(3){
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(252, 253, 253, 0.897);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #05000c;
+	transition: all 0.5s linear;
+    animation: anim3 1.4s linear infinite;
+}
+@keyframes anim3{
+  100%{
+transform: rotate(360deg)scale(1.3);
+color: lightseagreen;
+
+    }
+   
+}
+#footer-col .social-links a:nth-child(3):hover{
+    background-color: #a00471;
+    color: rgb(243, 241, 241);
+    animation: none;
+}
+
+#footer-col .social-links a:hover{
+	color: #fdfdfd;
+	background-color: #a00471;
+    margin-left: 10px;
+    transform: scale(1.3);
+    transform: rotate(360deg);
+   
+}
+/* Con-text */
+#con-text {
+   padding-left: 30px;
+}
+#con-text ul li p{
+   
+    font-size: 1.5em;
+    color:rgb(252, 253, 253);
+}
+#con-text ul li h4 span{
+    cursor: pointer;
+    font-size: 1.6em;
+}
+@media(max-width:500px){
+    #con-text ul li p{
+   
+    font-size: 1.2em;
+    
+}
+    #con-text ul li h4 span{
+        
+      
+    }
+    #con-text ul li h4{
+        font-size: 1rem;
+       
+    }
+    #con-text h1{
+        font-size: 3rem;
+    }
+}
+ #con-text ul li h4{
+    color: #12acf3;
+ }
+ /* ConComponets */
+ #cont{
+  
+  
+   display: grid;
+   grid-template-columns:1fr 4fr;
+  
+}
+#cont #Contact{
+
+  background-color: rgb(255, 255, 255); 
+
+}
+
+#cont #Contact h1{
+ 
+ 
+ margin-left: 50px;
+padding-top: 60px;
+ writing-mode: vertical-lr;
+ font-size: 7em;
+ /* color: #000607; */
+ font-weight: 900;
+ font-family: monospace;
+ letter-spacing: 55px;
+ transform: rotate(180deg);
+ /* text-shadow: 0.3px 0.42px 5px rgb(247, 245, 245); */
+ text-transform: uppercase;
+}
+@media(max-width:880px){
+ #cont #Contact h1{
+     margin-left: 0px;
+     font-size: 3.6em;
+     letter-spacing: 60px;
+  }
+}
+#cont #Contact2{
+  flex: 60%;
+ 
+  background-color: black;
+  
+ 
+ 
+}
+/* about horizontal */
+#abo{
+  
+  
+   display: grid;
+   grid-template-columns:1fr 4fr;
+  
+}
+#abo #abo-1{
+
+ /* background-color: rgb(252, 251, 251); */
+}
+
+ #abo #abo-1 h1{
+ 
+ 
+ /* margin-left: 50px; */
+padding-top: 60px;
+ writing-mode: vertical-lr;
+ font-size: 1em;
+ color: #fcfdfd;
+ font-weight: 900;
+ font-family: monospace;
+ letter-spacing: 25px;
+ transform: rotate(180deg);
+ /* text-shadow: 0.3px 0.42px 2px rgb(247, 245, 245); */
+ text-transform: uppercase;
+} 
+/* About Animation */
+#abo #abo-1 h1{
+   color: transparent;
+   -webkit-text-stroke: 0.5px #fff;
+   background-image: url(../images/b8.png);
+   -webkit-background-clip: text;
+  font-size: 2.4em;
+  letter-spacing: 8px;
+  margin-left: 18px;
+  margin-bottom: 20px;
+  animation: back 25s linear infinite;
+}
+@keyframes back{
+  100%{
+    background-position: 6000px 0px;
+  }
+}
+@media(max-width:880px){
+ #cont #Contact h1{
+     margin-left: 0px;
+     font-size: 3.6em;
+     letter-spacing: 60px;
+  }
+  #cont #Contact2{
+    margin-left: -44px;
+  }
+}
+#cont #Contact2{
+  flex: 60%;
+ 
+  background-color: black;
+  
+ 
+ 
+}
+/* contact animation */
+#cont #Contact h1{
+   color: transparent;
+   -webkit-text-stroke: 0.9px #000;
+   background-image: url(../images/b8.png);
+   -webkit-background-clip: text;
+  font-size: 7.4em;
+  letter-spacing: 58px;
+  margin-left: 18px;
+  margin-bottom: 20px;
+  animation: back 25s linear infinite;
+}
+@keyframes back{
+  100%{
+    background-position: 6000px 0px;
+  }
+}
+@media(max-width:768px){
+    #cont #Contact h1{
+        font-size: 4.3em;
+        letter-spacing: 72px;
+         margin-left: 8px;
+          -webkit-text-stroke: 0.9px rgb(247, 244, 244);
+          
+    }
+    #cont #Contact{
+   background-color: transparent;
+    }
+}

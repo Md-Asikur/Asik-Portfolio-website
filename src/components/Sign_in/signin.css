@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+}
+#log{
+/* background: linear-gradient(36deg, rgba(10,16,98,1) 15%, rgba(116,8,161,1) 98%); */
+   border-radius: 10px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+  background: linear-gradient(36deg, rgba(5,11,91,1) 12%, rgba(59,134,87,1) 100%);
+    width: 400px;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 5px 15px #fff;
+  
+}
+@media(max-width:768px){
+    #log{
+        height: auto;
+        background-color: lightcoral;
+    }
+}
+
+#log input,label{
+    margin-left: 50px;
+}
+.sp{
+    color: red;
+    display: block;
+    margin: auto;
+    margin-left: 47px;
+}

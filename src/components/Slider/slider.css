@@ -1,0 +1,14 @@
+.career{
+    font-weight: 900;
+    font-size: 14px;
+    
+}
+.career #svg{
+     font-size: 17px;
+}
+@media(max-width:768px){
+    #sliders .slick-slider.slick-initialized h3{
+      
+      margin-left: 5px;
+    }
+}

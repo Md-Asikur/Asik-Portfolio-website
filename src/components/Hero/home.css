@@ -1,0 +1,210 @@
+#root,body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+.hero-img {
+  background-image: linear-gradient(
+      36deg,
+      rgba(12, 20, 133, 1) 0%,
+      rgba(3, 9, 92, 1) 100%
+    ),
+    url("../images/bg2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  position: relative;
+}
+.hero-inner-img img {
+  height: 700px;
+  position: absolute;
+  bottom: 0%;
+  left: 65%;
+}
+.hero-content {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+}
+
+
+.hero-content h1,
+h3 {
+  font-family: system-ui;
+  letter-spacing: 3px;
+}
+
+.hero-content h4 {
+  color: rgb(251, 252, 252);
+}
+.hero-content h5 {
+  font-size: 17px;
+  color: #c4e0e5;
+  letter-spacing: 4px;
+  margin-left: 18px;
+  margin-top: 20px;
+}
+.hero-content h5 span {
+  color: crimson;
+}
+.hero-content h1{
+   color: transparent;
+   -webkit-text-stroke: 0.5px #fff;
+   background-image: url(../images/b6.png);
+   -webkit-background-clip: text;
+  font-size: 5em;
+  letter-spacing: 8px;
+  
+  margin-bottom: 20px;
+  animation: back 25s linear infinite;
+}
+@keyframes back{
+  100%{
+    background-position: 6000px 0px;
+  }
+}
+.hero-content h1 span {
+  color: transparent;
+  -webkit-text-stroke: 1.6px #c4e0e5;
+}
+.hero-content h6{
+   color: transparent;
+   -webkit-text-stroke: 0.5px #fff;
+   background-image: url(../images/back.png);
+   -webkit-background-clip: text;
+  font-size: 2.4em;
+  letter-spacing: 8px;
+  margin-left: 18px;
+  margin-bottom: 20px;
+  animation: back 25s linear infinite;
+}
+@keyframes back{
+  100%{
+    background-position: 6000px 0px;
+  }
+}
+/* vanta */
+.Countdown {
+  /* text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: #1B0644; */
+}
+
+.Countdown-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Countdown-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container-fluids {
+  background-image: linear-gradient(
+    36deg,
+    rgba(6, 50, 53, 0.7) 0%,
+    rgba(5, 12, 104, 0.6) 100%
+  );
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 400px;
+}
+
+@media screen and (max-width: 500px) {
+  .logo {
+    width: calc(100vw - 160px);
+  }
+}
+
+#Countdown {
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  position: relative;
+}
+
+nav {
+  display: inline-block;
+  margin-top: 15px;
+}
+nav a {
+  padding: 10px 20px;
+  border-radius: 30px;
+
+  margin: 0px 5px;
+  transition: 0.6s linear;
+  z-index: 5;
+  position: relative;
+}
+
+nav a:hover {
+  background: linear-gradient(36deg, rgba(117, 58, 136, 1) 0%, rgba(204, 43, 94, 1) 100%);
+  margin-right: 20px;
+  border-radius: 30px;
+}
+nav a #material {
+  color: #c4e0e5;
+  font-size: 2rem;
+}
+
+span.Typewriter__cursor {
+  color: rgb(240, 9, 170);
+  font-weight: 900;
+}
+span.Typewriter__wrapper {
+  color: #c4e0e5;
+
+  font-size: 1.3em;
+}
+
+@media (max-width: 400px) {
+  nav a {
+    display: block;
+    margin-top: 10px;
+  }
+}
+
+button.scroll-to-top{
+    /* background-color:blue; */
+   background-color: transparent;
+   /* display: flex;
+   justify-content: center;
+   align-items: center;
+   */
+    box-shadow: none;
+
+   
+
+}
+.scroll-to-top svg{
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+ 
+ 
+  
+}
+ 

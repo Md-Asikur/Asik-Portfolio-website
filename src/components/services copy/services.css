@@ -1,0 +1,139 @@
+
+#icon{
+   
+    height: 70px;
+    width: 70px;
+    display: block;
+  
+    margin: auto;
+}
+#serv-body{
+    text-align: center;
+}
+#serv-mt{
+    margin-top: 100px;
+    transition: 0.4s linear;
+     
+}
+#serv-body a{
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+}
+#serv-mt:hover{
+    background-color: rgb(60, 5, 187);
+    color: aliceblue;
+    border-radius: 20px;
+  
+}
+#serv-body a:hover{
+    color: rgb(54, 9, 218);
+}
+#counter{
+  background-color:white;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 5, 8);
+}
+#counter h1,h2{
+    text-align: center;
+   
+}
+@media(max-width:768px){
+    #counter{
+    background-image:linear-gradient(36deg, rgba(6,120,121,1) 0%, rgba(17,12,93,1) 87%);
+    height: auto;
+    
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+#counter .count{
+    margin-bottom: 50px;
+}
+}
+#serv-body h1,p{
+    color: aliceblue;
+}
+#icon{
+    color: aliceblue;
+}
+/* Main SErvices */
+/* 
+services */
+#servicess{
+  background-color: #000;
+display: flex;
+flex-wrap: wrap;
+ padding-top: 200px;
+
+}
+#servicess h1,h3{
+  margin-left: 100px;
+  left: 20%;
+  font-size: 3em;
+  color: #c4e0e5;
+}
+#servicess h3{
+ 
+  color: #c4e0e5;
+  text-shadow: 0.3px 0.42px 5px rgb(247, 245, 245);
+  font-size: 4rem;
+}
+#serv-card{
+  position: relative;
+  z-index: 4;
+ padding: 30px 35px;
+ margin-top: 50px;
+ margin-left: 30px;
+ border-left: 1px solid rgb(16, 4, 88);
+ margin-bottom: 30px;
+ border-bottom-right-radius: 40px;
+border-top-left-radius: 40px;
+}
+.serv-logo img{
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+div.serv-body{
+  color: aliceblue;
+  text-align: center;
+  
+}
+#serv-card p{
+  font-size: 14px;
+}
+
+#serv-card::after{
+content: "";
+position:absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 0;
+z-index: -1;
+transition: all 0.9s linear;
+border-bottom-right-radius: 40px;
+border-top-left-radius: 40px;
+
+
+}
+#serv-card:hover::after{
+ /* background: linear-gradient(36deg, rgba(6,10,93,1) 0%, rgba(8,75,88,1) 100%); */
+ background-color: rgb(5, 67, 148);
+  height: 100%;
+ 
+  
+}
+#serv-card:hover{
+ transform: scale(1.2);
+ margin-left: 40px;
+ box-shadow: 0px 4px 18px #fff;
+}

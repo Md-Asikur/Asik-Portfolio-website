@@ -1,0 +1,49 @@
+[
+    {
+        "id":1,
+        "title":"CRETATE A WORDPRESS THEME FROM SCRATCH",
+        "BTN":"Learn MORE",
+        "IMAGE":"./image/office1.jpg",
+        "desc":"Adipisicing v"
+
+    },
+     {
+         "id":2,
+       "title": "CRETATE A WORDPRESS THEME FROM SCRATCH",
+       "BTN": "Learn MORE",
+       "IMAGE": "./image/office2.jpg"
+      
+     },
+      {
+         "id":3,
+        "title":"CRETATE A WORDPRESS THEME FROM SCRATCH",
+        "BTN":"Learn MORE",
+        "IMAGE":"./image/office3.jpg"
+      
+    },
+     {
+         "id":4,
+        "title":"CRETATE A WORDPRESS THEME FROM SCRATCH",
+        "BTN":"Learn MORE",
+        "IMAGE":"./image/office4.jpg"
+     
+
+    },
+     {
+         "id":5,
+        "title":"CRETATE A WORDPRESS THEME FROM SCRATCH",
+        "BTN":"Learn MORE",
+        "IMAGE":"./image/office5.jpg"
+  
+
+    },
+     {
+         "id":6,
+        "title":"CRETATE A WORDPRESS THEME FROM SCRATCH",
+        "BTN":"Learn MORE",
+        "IMAGE":"./image/React1.jpg"
+        
+
+    }
+     
+]

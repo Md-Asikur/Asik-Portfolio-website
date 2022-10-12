@@ -1,0 +1,131 @@
+#about{
+    background-color: black;
+    color: aliceblue;
+}
+#about h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: left;
+   
+}
+#about h1{
+    font-size: 3.5rem;
+     margin-bottom: 20px;
+}
+#about h1,h2,p,button{
+     padding-left: 20px;
+}
+#about button{
+   
+}
+/* vanta */
+#Countdownsah{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+#Countdownsah #ab-text h4{
+color: transparent;
+   -webkit-text-stroke: 0.2px #fff;
+   background-image: url(../images/b8.png);
+   -webkit-background-clip: text;
+  font-size: 1.9em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-left: 18px;
+  margin-bottom: 20px;
+  animation: back 25s linear infinite;
+}
+#Countdownsah #ab-text h1{
+    text-align: center;
+   color: transparent;
+   -webkit-text-stroke: 0.5px #fff;
+   background-image: url(../images/b8.png);
+   -webkit-background-clip: text;
+  font-size: 8.4em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 18px;
+  
+  margin-left: 18px;
+  margin-bottom: 20px;
+  animation: back 25s linear infinite;
+}
+@keyframes back{
+  100%{
+    background-position: 7000px 0px;
+  }
+}
+ #abouts img{
+        margin-left: 100px;
+        padding: 40px;
+    }
+@media(max-width:798px){
+    #abouts img{
+        margin-left: 0px;
+        padding: 40px;
+        height: 600px;
+    }
+    #Countdownsah #ab-text h1{
+        font-size: 3.9em;
+    }
+}
+#abouts h2{
+    position: relative;
+    padding-left: 30px;
+}
+#abouts h2::before{
+	content: '';
+	position: absolute;
+	left:20;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 90px;
+    transition: 0.6s linear;
+}
+#abouts h2:hover::before{
+    width:100px;
+    height: 2px;
+    background-color: rgb(170, 7, 116);
+}
+#abouts p ul{
+    padding: 30px 40px;
+    margin-top: -20px;
+}
+ #abouts p ul li{
+     display: block;
+     padding: 10px 0px;
+     letter-spacing: 2px;
+     font-size: 1.4em;
+     color:rgb(146, 140, 140);
+     cursor: pointer;
+      
+}
+#abouts p ul li span{
+    color: #fff;
+   position: relative;
+}
+
+#about #ab-sec{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+#about #ab-sec p{
+color: darkslategray;
+}
+#about #ab-sec h4{
+    margin-left: 20px;
+    color: rgb(213, 215, 216);
+    font-size: 1.3em;
+}
+#about #ab-sec h4 span{
+  
+    color: rgb(2, 97, 185);
+}
+#aboutss #ab-skill{
+    background-color: rgb(5, 5, 12);
+}
