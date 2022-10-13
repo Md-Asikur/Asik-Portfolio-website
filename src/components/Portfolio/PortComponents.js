@@ -30,16 +30,14 @@ export default function PortComponents() {
         <div className="row mt-5" id="portfolio">
           <div
             className="col-sm-12 col-md-4 col-lg-3"
-            data-aos="fade-down-right"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
-            data-aos-anchor-placement="center"
+            
+            
           >
             <div className="counter">
               <img src={Happy} alt="" />
               <Trigger onEnter={() => setCounter(true)} onExit={() => setCounter(false)}>
                 <h1>
-                  {counter && <CountUp start={0} end={2500} duration={5} delay={0} />}
+                  {counter && <CountUp start={0} end={2500} duration={3} delay={0} />}
                 </h1>
                 <h2> Happy Clients</h2>
               </Trigger>
@@ -47,16 +45,14 @@ export default function PortComponents() {
           </div>
           <div
             className="col-sm-12 col-md-4 col-lg-3"
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
-            data-aos-anchor-placement="center"
+           
+           
           >
             <div className="counter">
               <img src={tea} alt="" />
               <Trigger onEnter={() => setCounter(true)} onExit={() => setCounter(false)}>
                 <h1>
-                  {counter && <CountUp start={0} end={10000} duration={6} delay={0} />}
+                  {counter && <CountUp start={0} end={10000} duration={4} delay={0} />}
                 </h1>
                 <h2> Cup Of Coffee</h2>
               </Trigger>
@@ -64,16 +60,13 @@ export default function PortComponents() {
           </div>
           <div
             className="col-sm-12 col-md-4 col-lg-3"
-            data-aos="fade-up-left"
-            data-aos-easing="ease-in-cubic"
-            data-aos-duration="2000"
-            data-aos-anchor-placement="left-center"
+           
           >
             <div className="counter">
               <img src={reveiws} alt="" />
               <Trigger onEnter={() => setCounter(true)} onExit={() => setCounter(false)}>
                 <h1>
-                  {counter && <CountUp start={0} end={5000} duration={6} delay={0} />}
+                  {counter && <CountUp start={0} end={5000} duration={3} delay={0} />}
                 </h1>
                 <h2>Client Review</h2>
               </Trigger>
@@ -81,16 +74,13 @@ export default function PortComponents() {
           </div>
           <div
             className="col-sm-12 col-md-4 col-lg-3"
-            data-aos="zoom-out-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
-            data-aos-anchor-placement="center"
+           
           >
             <div className="counter">
               <img src={code} alt="" />
               <Trigger onEnter={() => setCounter(true)} onExit={() => setCounter(false)}>
                 <h1>
-                  {counter && <CountUp start={0} end={50000} duration={6} delay={0} />}
+                  {counter && <CountUp start={0} end={50000} duration={5} delay={0} />}
                 </h1>
                 <h2> Line of Codes</h2>
               </Trigger>

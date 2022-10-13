@@ -50,7 +50,7 @@ export default function AboutComponents() {
             },
             particles: {
               color: {
-                value: "#004e92",
+                value: "#6d04c9",
               },
               links: {
                 color: "#cc2b5e",
@@ -77,7 +77,7 @@ export default function AboutComponents() {
                   enable: true,
                   area: 3500,
                 },
-                value: 70,
+                value: 80,
               },
               opacity: {
                 value: 0.6,
@@ -93,12 +93,7 @@ export default function AboutComponents() {
           }}
         />
         <div className="col-sm-12 col-md-6 col-lg-6" id="about-1">
-          <div
-            data-aos="flip-right"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
-            data-aos-anchor-placement="center"
-          >
+          <div>
             <h1>
               {/* <span className="fs-4">About Me</span> */}
               <div className="row" id="abo">
@@ -118,12 +113,7 @@ export default function AboutComponents() {
             </NavLink>
           </div>
         </div>
-        <div
-          className="col-sm-12 col-md-6 col-lg-6"
-          id="about-2"
-          data-aos="fade-left"
-          data-aos-anchor-placement="center"
-        >
+        <div className="col-sm-12 col-md-6 col-lg-6" id="about-2">
           <SkillsBar />
         </div>
       </div>

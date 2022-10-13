@@ -82,7 +82,7 @@ export default function Home() {
       {/* Services */}
       <ServComponents />
       {/* Portfolio */}
-      <PortComponents />
+       <PortComponents />
       {/* footer */}
       <Footer />
     </>

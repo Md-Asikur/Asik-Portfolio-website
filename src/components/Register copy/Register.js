@@ -107,9 +107,11 @@ const SignIn = () => {
         }
       />
       <div id="reg">
-        {console.log("user", user)}
+        {/* {console.log("user", user)} */}
         <form method="POST">
-          <h2 className="text-white text-center">SignUp Now</h2>
+          <h2  style={{ marginLeft: "-190px"}} id="sign-h1">
+           Registretion
+          </h2>
           <label for="name">Name</label>
           <input
             type="text"
@@ -117,7 +119,8 @@ const SignIn = () => {
             value={user.name}
             onChange={handleInputs}
             autoComplete="off"
-            className="btn btn-outline-warning text-black fs-5"
+            className="btn btn-outline-warning text-black  fs-5"
+            id="reg-btn"
           />
           <p style={{ display: "block" }} id="reg-red">
             {formErrors.name}
@@ -130,7 +133,8 @@ const SignIn = () => {
             value={user.email}
             onChange={handleInputs}
             autoComplete="off"
-            className="btn btn-outline-danger text-black fs-5"
+            className="btn btn-outline-danger text-black  fs-5"
+            id="reg-btn"
           />
           <p style={{ display: "block" }} id="reg-red">
             {formErrors.email}
@@ -143,7 +147,8 @@ const SignIn = () => {
             value={user.phone}
             onChange={handleInputs}
             autoComplete="off"
-            className="btn btn-outline-success text-black fs-5"
+            className="btn btn-outline-success text-black  fs-5"
+            id="reg-btn"
           />
           <p id="reg-red">{formErrors.phone}</p>
           <label for="name">Work</label>
@@ -153,7 +158,8 @@ const SignIn = () => {
             value={user.work}
             onChange={handleInputs}
             autoComplete="off"
-            className="btn btn-outline-primary text-black fs-5"
+            className="btn btn-outline-primary text-black  fs-5"
+            id="reg-btn"
           />
           <p id="reg-red">{formErrors.work}</p>
           <label for="name">Password</label>
@@ -163,7 +169,8 @@ const SignIn = () => {
             value={user.password}
             onChange={handleInputs}
             autoComplete="off"
-            className="btn btn-outline-warning text-black fs-5"
+            className="btn btn-outline-warning text-black  fs-5"
+            id="reg-btn"
           />
           <p id="reg-red">{formErrors.password}</p>
           <label for="name">ConfirmPassword</label>
@@ -173,7 +180,8 @@ const SignIn = () => {
             value={user.cpassword}
             onChange={handleInputs}
             autoComplete="off"
-            className="btn btn-outline-secondary text-black fs-5"
+            className="btn btn-outline-secondary text-black  fs-5"
+            id="reg-btn"
           />
           <p id="reg-red">{formErrors.cpassword}</p>
           <br />
@@ -181,25 +189,20 @@ const SignIn = () => {
             type="submit"
             name="signup"
             value="Register Now"
-            className="btn btn-outline-info text-white d-block mx-auto"
+            className="btn btn-outline-info text-white mx-5"
             onClick={postData}
           />
-          <button
-            type=""
-            className="btn btn-outline-success text-white d-block mx-auto mt-2"
-          >
-            <GoogleIcon
-              style={{ color: "darkblue", fontSize: "25px" }}
-              
-            />
+          <button type="" className="btn btn-outline-success text-white  mx-1  mt-2">
+            <GoogleIcon style={{ color: "darkblue", fontSize: "25px" }} />
             <a
               href="https://www.google.com"
-              className="text-decoration-none text-white fs-5"
+              className="text-decoration-none text-white  fs-5"
+              id="reg-btn"
             >
               Signin with google
             </a>
           </button>
-          <p className="text-white text-center mt-2">
+          <p className="text-white  mt-2" style={{ marginLeft: "-20px" }}>
             already have an account?<NavLink to="/signin">Signin</NavLink>
           </p>
         </form>

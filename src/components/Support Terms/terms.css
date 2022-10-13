@@ -22,3 +22,8 @@ padding: 80px;
  font-family:  sans-serif;
  
 }
+@media(max-width:600px){
+   #support{
+padding: 20px;
+}
+}

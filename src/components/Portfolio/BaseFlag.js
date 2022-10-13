@@ -15,10 +15,7 @@ export default function BaseFlag() {
           </div>
           <div
             className="col-sm-12 col-md-4 col-lg-3"
-            data-aos="fade-right"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
-            data-aos-anchor-placement="center"
+           
           >
             <div className="counter">
               <img src={freelance} alt="" />
@@ -27,10 +24,7 @@ export default function BaseFlag() {
           </div>
           <div
             className="col-sm-12 col-md-4 col-lg-3"
-            data-aos="zoom-in-right"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
-            data-aos-anchor-placement="center"
+           
           >
             <div className="counter">
               <img src={fiverr} alt="" />
@@ -39,10 +33,7 @@ export default function BaseFlag() {
           </div>
           <div
             className="col-sm-12 col-md-4 col-lg-3"
-            data-aos="zoom-out-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
-            data-aos-anchor-placement="center"
+           
           >
             <div className="counter">
               <img src={envato} alt="" />
@@ -51,10 +42,7 @@ export default function BaseFlag() {
           </div>
           <div
             className="col-sm-12 col-md-4 col-lg-3"
-            data-aos="fade-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
-            data-aos-anchor-placement="center"
+           
           >
             <div className="counter">
               <img src={wordpress} alt="" />

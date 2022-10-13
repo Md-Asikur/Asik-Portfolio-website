@@ -7,6 +7,11 @@
    grid-template-columns:1fr 4fr;
   
 }
+.counter{
+  padding-top: 60px;
+  padding-bottom: 60px;
+ 
+}
 #port #Portfolio{
 
  /* background: black; */

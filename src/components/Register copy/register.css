@@ -1,3 +1,19 @@
+@media(min-width:920px){
+#reg #sign-h1{
+
+padding-left: 150px;
+color: aliceblue;
+}
+}
+@media(max-width:910px){
+#reg #sign-h1{
+
+padding-left: 150px;
+margin-left: 50px;
+color: aliceblue;
+}
+}
+
 .sp{
     color:rgb(255, 0, 0);
     display:block;
@@ -41,8 +57,12 @@ label{
    
 }
 #reg label,input{
-   margin-left: 0px;
+   margin-left: -25px;
+   display: flex;
+   flex-wrap: wrap;
+   margin-right: 20px;
 }
+
 #reg input:hover{
     background-color: aliceblue;
    
@@ -63,4 +83,8 @@ label{
 }
 #reg-red{
     color: red;
+}
+#reg-btn input{
+    display: flex;
+    flex-wrap:wrap ;
 }

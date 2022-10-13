@@ -71,6 +71,13 @@ color: transparent;
     #Countdownsah #ab-text h1{
         font-size: 3.9em;
     }
+     #Countdownsah #ab-text h4{
+        animation: none;
+        color: #fdfd;
+        -webkit-text-stroke: none;
+        background-image: none;
+     }
+   
 }
 #abouts h2{
     position: relative;
@@ -104,6 +111,21 @@ color: transparent;
      color:rgb(146, 140, 140);
      cursor: pointer;
       
+}
+@media(max-width:768px){
+#abouts p ul li{
+     display: block;
+     padding-left: 1px;
+     letter-spacing: 1px;
+     font-size: 1.4em;
+     color:rgb(146, 140, 140);
+     cursor: pointer;
+      
+}
+#abouts p ul{
+    padding: 30px 0px;
+    margin-top: -20px;
+}
 }
 #abouts p ul li span{
     color: #fff;

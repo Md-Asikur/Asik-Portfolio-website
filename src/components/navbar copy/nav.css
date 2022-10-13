@@ -31,15 +31,15 @@
   
   justify-content: center;
   align-items: center;
-  height: 50px;
-  width: 50px;
-  z-index: 5;
+  height: 40px;
+  width: 40px;
+  z-index: 4245;
 }
 @media(max-width:500px){
   .menu-fixed{
    height:50px;
    width: 50px;
-   background-color:tomato;
+   background-color: transparent;
 
  
   }

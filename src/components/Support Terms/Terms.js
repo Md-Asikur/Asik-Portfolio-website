@@ -77,8 +77,9 @@ export default function Terms() {
             <h5>
               We use Contact Form 7 plugin for a contact for. Information is received via
               email and stored there for 6 months without giving it for 3rd parties or
-              using for marketing purposes. It is only there to provide answers to
-              customer inquiries.
+              using for marketing purposes.{" "}
+              <NavLink to="/"> https://asikurpersonalPortfolio.com</NavLink> It is only
+              there to provide answers to customer inquiries.
             </h5>
             <h4>Cookies</h4>
             <h5>
@@ -86,16 +87,18 @@ export default function Terms() {
               address and website in cookies. These are for your convenience so that you
               do not have to fill in your details again when you leave another comment.
               These cookies will last for one year. If you have an account and you log in
-              to this site, we will set a temporary cookie to determine if your browser
-              accepts cookies. This cookie contains no personal data and is discarded when
-              you close your browser. When you log in, we will also set up several cookies
-              to save your login information and your screen display choices. Login
-              cookies last for two days, and screen options cookies last for a year. If
-              you select “Remember Me”, your login will persist for two weeks. If you log
-              out of your account, the login cookies will be removed. If you edit or
-              publish an article, an additional cookie will be saved in your browser. This
-              cookie includes no personal data and simply indicates the post ID of the
-              article you just edited. It expires after 1 day.
+              to this site, we will set a temporary.{" "}
+              <NavLink to="/"> https://asikurpersonalPortfolio.com</NavLink>
+              cookie to determine if your browser accepts cookies. This cookie contains no
+              personal data and is discarded when you close your browser. When you log in,
+              we will also set up several cookies to save your login information and your
+              screen display choices. Login cookies last for two days, and screen options
+              cookies last for a year. If you select “Remember Me”, your login will
+              persist for two weeks. If you log out of your account, the login cookies
+              will be removed. If you edit or publish an article, an additional cookie
+              will be saved in your browser. This cookie includes no personal data and
+              simply indicates the post ID of the article you just edited. It expires
+              after 1 day.
             </h5>
             <h4>Who me share your data with</h4>
             <h5>
@@ -131,7 +134,7 @@ export default function Terms() {
               inspekcija” (DVI) if you believe your personal information has been
               processed in a way that does not comply with the GDPR. You can do so by
               calling the DVI helpline on 67 22 31 31 or via their website
-              http://www.dvi.gov.lv/lv/.
+              <NavLink to="/"> https://asikurpersonalPortfolio.com</NavLink>
             </h5>
             <h4>What data breach procedures we have in place</h4>
             <h5>

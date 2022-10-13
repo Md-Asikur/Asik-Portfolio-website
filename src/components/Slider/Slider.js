@@ -24,7 +24,7 @@ export default class AutoPlayMethods extends Component {
       cssEase: "linear",
     };
     return (
-      <div>
+      <div className="container">
         <Slider {...settings}>
           <div>
             <h3 className="text-white">Great Service</h3>

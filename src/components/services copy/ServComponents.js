@@ -68,10 +68,7 @@ export default function ServComponents() {
         </div>
         <div
           className="col-sm-12 col-md-6 col-lg-4"
-          data-aos="fade-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          data-aos-anchor-placement="center"
+         
         >
           <div id="serv-card">
             <div className="serv-logo">
@@ -146,10 +143,7 @@ export default function ServComponents() {
         </div>
         <div
           className="col-sm-12 col-md-6 col-lg-4"
-          data-aos="fade-down"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          data-aos-anchor-placement="center"
+         
         >
           <div id="serv-card">
             <div className="serv-logo">

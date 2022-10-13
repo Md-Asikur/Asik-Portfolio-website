@@ -9,15 +9,12 @@
 #count-con{
   /* background: linear-gradient(36deg, rgba(6,10,93,1) 0%, rgba(8,75,88,1) 100%); */
   /* background: rgb(73, 41, 41); */
-  padding: 60px 10px;
+  padding: 40px 10px;
   position: relative;
   z-index: 1;
   cursor: pointer;
 }
-.counter{
-  padding-top: 160px;
- 
-}
+
 div.counter{
   text-align: center;
   color: aliceblue;

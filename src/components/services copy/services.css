@@ -42,22 +42,7 @@
     text-align: center;
    
 }
-@media(max-width:768px){
-    #counter{
-    background-image:linear-gradient(36deg, rgba(6,120,121,1) 0%, rgba(17,12,93,1) 87%);
-    height: auto;
-    
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: aliceblue;
-}
-#counter .count{
-    margin-bottom: 50px;
-}
-}
+
 #serv-body h1,p{
     color: aliceblue;
 }
@@ -134,6 +119,30 @@ border-top-left-radius: 40px;
 }
 #serv-card:hover{
  transform: scale(1.2);
- margin-left: 40px;
+ margin-left: 50px;
+ margin-right: 50px;
  box-shadow: 0px 4px 18px #fff;
+
+}
+@media(max-width:768px){
+    #counter{
+    background-image:linear-gradient(36deg, rgba(6,120,121,1) 0%, rgba(17,12,93,1) 87%);
+    height: auto;
+    
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+#counter .count{
+    margin-bottom: 50px;
+}
+#serv-card:hover{
+ transform: scale(1.2);
+ margin-left: 20px;
+margin-bottom: 30px;
+ box-shadow: 0px 4px 18px #fff;
+}
 }

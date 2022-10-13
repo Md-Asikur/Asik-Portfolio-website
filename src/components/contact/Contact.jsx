@@ -49,8 +49,13 @@ export default function Contact() {
         </div>
       </section>
       <div className="row">
-        <div id="con-reg" className="col-sm-12 col-md-6 col-lg-6">
-          <SignIn />
+        <div className="container col-sm mx-4">
+          <div
+            id="con-reg"
+            className="col-sm-12 col-md-6 col-lg-6 col-sm px-4 d-flex flex-sm-wrap"
+          >
+            <SignIn />
+          </div>
         </div>
         <div id="con-text" className="col-sm-12 col-md-6 col-lg-6">
           <h1>Contact</h1>

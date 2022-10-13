@@ -4,16 +4,16 @@ export const GalleryData = [
     titile: "car",
     image: "./image/office1.jpg",
   },
-  {
-    id: 2,
-    titile: "car",
-    image: "./image/office2.jpg",
-  },
-  {
-    id: 3,
-    titile: "car",
-    image: "./image/office3.jpg",
-  },
+  // {
+  //   id: 2,
+  //   titile: "car",
+  //   image: "./image/office2.jpg",
+  // },
+  // {
+  //   id: 3,
+  //   titile: "car",
+  //   image: "./image/office3.jpg",
+  // },
   {
     id: 4,
     titile: "car",
