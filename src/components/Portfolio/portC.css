@@ -71,7 +71,7 @@ padding-top: 60px;
 }
 #port #Portfolio2{
   flex: 60%;
- overflow: scroll;
+overflow: hidden;
   background-color: rgb(250, 248, 248);
   
  

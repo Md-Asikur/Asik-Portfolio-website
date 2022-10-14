@@ -15,6 +15,7 @@ import ServComponents from "../services copy/ServComponents";
 import AboutComponents from "../about/AboutComponents";
 import PortComponents from "../Portfolio/PortComponents";
 
+//Hello
 export default function Home() {
   const [vantaEffect, setVantaEffect] = useState(0);
   const myRef = useRef(!null);
@@ -78,11 +79,21 @@ export default function Home() {
         </div>
       </section>
       {/* About Section */}
-      <AboutComponents />
+     
+        <AboutComponents />
+     
+
       {/* Services */}
-      <ServComponents />
+     
+        <ServComponents />
+    
+
+      {/* <Bounce top>
+        <ServComponents />
+      </Bounce> */}
       {/* Portfolio */}
-       <PortComponents />
+
+      <PortComponents />
       {/* footer */}
       <Footer />
     </>

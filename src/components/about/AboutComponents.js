@@ -4,6 +4,14 @@ import { loadFull } from "tsparticles";
 import { NavLink } from "react-router-dom";
 import SkillsBar from "../Progress skill bar/Skillbar";
 import './aboC.css'
+
+
+import Bounce from "react-reveal/Bounce";
+import Fade from "react-reveal/Fade";
+import Rotate from "react-reveal/Rotate";
+import Roll from "react-reveal/Roll";
+
+import Slide from "react-reveal/Slide";
 export default function AboutComponents() {
   // Partticles
   const particlesInit = useCallback(async (engine) => {
@@ -97,25 +105,32 @@ export default function AboutComponents() {
             <h1>
               {/* <span className="fs-4">About Me</span> */}
               <div className="row" id="abo">
-                <div id="abo-1">
-                  <h1>About Me</h1>
-                </div>
+                <Slide top>
+                  <div id="abo-1">
+                    <h1>About Me</h1>
+                  </div>
+                </Slide>
               </div>
-              <span>I'm a Full Stack</span>
-              <span className="sp-2">
-                web developer
-                <br />
-              </span>
-              <span>working from home</span>
+              <Slide right>
+                <span>I'm a Full Stack</span>
+
+                <span className="sp-2">
+                  web developer
+                  <br />
+                </span>
+                <span>working from home</span>
+              </Slide>
             </h1>
             <NavLink to="/about" className="btn btn-outline-info">
               Learn More
             </NavLink>
           </div>
         </div>
-        <div className="col-sm-12 col-md-6 col-lg-6" id="about-2">
-          <SkillsBar />
-        </div>
+        <Bounce top>
+          <div className="col-sm-12 col-md-6 col-lg-6" id="about-2">
+            <SkillsBar />
+          </div>
+        </Bounce>
       </div>
     </>
   );

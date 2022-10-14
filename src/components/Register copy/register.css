@@ -33,6 +33,7 @@ label{
 }
 #reg-red{
     color: red;
+   margin-left: -20px;
 }
 @media(max-width:1120px){
     #link-f {
@@ -57,7 +58,7 @@ label{
    
 }
 #reg label,input{
-   margin-left: -25px;
+   margin-left: 0px;
    display: flex;
    flex-wrap: wrap;
    margin-right: 20px;

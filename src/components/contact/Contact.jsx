@@ -14,6 +14,12 @@ import PhoneIcon from "@mui/icons-material/Phone";
 import Footer from "../footer/Footer";
 import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
 import ScrollToTop from "react-scroll-to-top";
+import Zoom from "react-reveal/Zoom";
+import Bounce from "react-reveal/Bounce";
+import Fade from "react-reveal/Fade";
+import Rotate from "react-reveal/Rotate";
+import Roll from "react-reveal/Roll";
+import Slide from "react-reveal/Slide";
 export default function Contact() {
    useEffect(() => {
      Aos.init({ duration: 2000 });
@@ -49,14 +55,17 @@ export default function Contact() {
         </div>
       </section>
       <div className="row">
-        <div className="container col-sm mx-4">
-          <div
-            id="con-reg"
-            className="col-sm-12 col-md-6 col-lg-6 col-sm px-4 d-flex flex-sm-wrap"
-          >
-            <SignIn />
+        <Bounce top>
+          <div className="container col-sm mx-4">
+            <div
+              id="con-reg"
+              className="col-sm-12 col-md-6 col-lg-6 col-sm px-4 d-flex flex-sm-wrap"
+            >
+              <SignIn />
+            </div>
           </div>
-        </div>
+        </Bounce>
+        <Slide right>
         <div id="con-text" className="col-sm-12 col-md-6 col-lg-6">
           <h1>Contact</h1>
           <ul>
@@ -114,7 +123,8 @@ export default function Contact() {
               </a>
             </div>
           </div>
-        </div>
+          </div>
+          </Slide>
       </div>
       <Footer />
     </div>

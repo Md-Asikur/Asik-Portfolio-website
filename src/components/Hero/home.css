@@ -140,12 +140,12 @@ h3 {
 
 .container-fluids {
   /* background-image: linear-gradient(90deg, rgb(6, 80, 0.165) 0.50%, rgba(1,8,3,0.9) 60%); */
-  /* background-image: linear-gradient(90deg, rgb(80, 0, 4) 0.50%, rgba(1,8,3,0.9) 60%); */
+  background-image: linear-gradient(90deg, rgba(80, 0, 4,0.8) 0.900%, rgba(1,8,3,0.9) 90%);
   /* background-image: linear-gradient(90deg, rgb(68, 80, 0) 0.50%, rgba(1,8,3,0.9) 60%); */
   /* background-image: linear-gradient(90deg, rgb(121, 3, 0.705) 0.30%, rgba(1,8,3,0.9) 60%);
    */
   /* background-image: linear-gradient(90deg, rgb(48, 0, 80) 0.400%, rgba(1,8,3,0.9) 60%); */
-   background-image: linear-gradient(3000deg, rgba(48, 0, 80,9) 0.900%, rgba(1,8,3,0.90000) 90%);
+   /* background-image: linear-gradient(3000deg, rgba(48, 0, 80,0.9) 0.900%, rgba(1,8,3,0.90000) 90%); */
   z-index: 1;
   /* background: linear-gradient(36deg, rgba(1,2,8,1) 0%, rgba(1,8,3,1) 73%); */
   background-position: center;

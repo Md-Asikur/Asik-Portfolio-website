@@ -99,18 +99,18 @@ const SignIn = () => {
   };
   return (
     <>
-      <ScrollToTop
+      {/* <ScrollToTop
         component={
           <KeyboardDoubleArrowUpIcon
             style={{ color: "#6f00ff", height: "35", width: "35" }}
           />
         }
-      />
+      /> */}
       <div id="reg">
         {/* {console.log("user", user)} */}
         <form method="POST">
-          <h2  style={{ marginLeft: "-190px"}} id="sign-h1">
-           Registretion
+          <h2 style={{ marginLeft: "-310px" }} id="sign-h1">
+            Registretion
           </h2>
           <label for="name">Name</label>
           <input
@@ -122,7 +122,7 @@ const SignIn = () => {
             className="btn btn-outline-warning text-black  fs-5"
             id="reg-btn"
           />
-          <p style={{ display: "block" }} id="reg-red">
+          <p style={{ display: "block", marginLeft: "-20px" }} id="reg-red">
             {formErrors.name}
           </p>
 
@@ -136,7 +136,7 @@ const SignIn = () => {
             className="btn btn-outline-danger text-black  fs-5"
             id="reg-btn"
           />
-          <p style={{ display: "block" }} id="reg-red">
+          <p style={{ display: "block", marginLeft: "-20px" }} id="reg-red">
             {formErrors.email}
           </p>
 

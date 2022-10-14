@@ -19,11 +19,11 @@ export const GalleryData = [
     titile: "car",
     image: "./image/Python1.jpg",
   },
-  {
-    id: 5,
-    titile: "bike",
-    image: "./image/Python2.jpg",
-  },
+  // {
+  //   id: 5,
+  //   titile: "bike",
+  //   image: "./image/Python2.jpg",
+  // },
   {
     id: 6,
     titile: "bike",
@@ -34,11 +34,11 @@ export const GalleryData = [
     titile: "cycle",
     image: "./image/React1.jpg",
   },
-  {
-    id: 8,
-    titile: "cycle",
-    image: "./image/React2.jpg",
-  },
+  // {
+  //   id: 8,
+  //   titile: "cycle",
+  //   image: "./image/React2.jpg",
+  // },
   {
     id: 9,
     titile: "Asikur",

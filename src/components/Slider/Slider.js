@@ -32,8 +32,7 @@ export default class AutoPlayMethods extends Component {
               Deserunt sint voluptate minim aliquip elit exercitation proident voluptate.
               Et amet in ad eu laborum. Nostrud irure sit est deserunt cupidatat amet eu
               cillum ea nostrud. Enim minim sint fugiat excepteur consectetur cillum
-              labore excepteur. Do eu et labore nulla aute laboris eu. Lorem est Lorem
-              veniam adipisicing consectetur nostrud commodo deserunt.
+              
             </p>
             <div style={{ textAlign: "center" }}>
               <img
@@ -63,8 +62,7 @@ export default class AutoPlayMethods extends Component {
               Deserunt sint voluptate minim aliquip elit exercitation proident voluptate.
               Et amet in ad eu laborum. Nostrud irure sit est deserunt cupidatat amet eu
               cillum ea nostrud. Enim minim sint fugiat excepteur consectetur cillum
-              labore excepteur. Do eu et labore nulla aute laboris eu. Lorem est Lorem
-              veniam adipisicing consectetur nostrud commodo deserunt.
+              
             </p>
             <div style={{ textAlign: "center" }}>
               <img
@@ -94,8 +92,7 @@ export default class AutoPlayMethods extends Component {
               Deserunt sint voluptate minim aliquip elit exercitation proident voluptate.
               Et amet in ad eu laborum. Nostrud irure sit est deserunt cupidatat amet eu
               cillum ea nostrud. Enim minim sint fugiat excepteur consectetur cillum
-              labore excepteur. Do eu et labore nulla aute laboris eu. Lorem est Lorem
-              veniam adipisicing consectetur nostrud commodo deserunt.
+              
             </p>
             <div style={{ textAlign: "center" }}>
               <img
@@ -125,8 +122,7 @@ export default class AutoPlayMethods extends Component {
               Deserunt sint voluptate minim aliquip elit exercitation proident voluptate.
               Et amet in ad eu laborum. Nostrud irure sit est deserunt cupidatat amet eu
               cillum ea nostrud. Enim minim sint fugiat excepteur consectetur cillum
-              labore excepteur. Do eu et labore nulla aute laboris eu. Lorem est Lorem
-              veniam adipisicing consectetur nostrud commodo deserunt.
+              
             </p>
             <div style={{ textAlign: "center" }}>
               <img
@@ -156,8 +152,7 @@ export default class AutoPlayMethods extends Component {
               Deserunt sint voluptate minim aliquip elit exercitation proident voluptate.
               Et amet in ad eu laborum. Nostrud irure sit est deserunt cupidatat amet eu
               cillum ea nostrud. Enim minim sint fugiat excepteur consectetur cillum
-              labore excepteur. Do eu et labore nulla aute laboris eu. Lorem est Lorem
-              veniam adipisicing consectetur nostrud commodo deserunt.
+              
             </p>
             <div style={{ textAlign: "center" }}>
               <img
@@ -187,8 +182,7 @@ export default class AutoPlayMethods extends Component {
               Deserunt sint voluptate minim aliquip elit exercitation proident voluptate.
               Et amet in ad eu laborum. Nostrud irure sit est deserunt cupidatat amet eu
               cillum ea nostrud. Enim minim sint fugiat excepteur consectetur cillum
-              labore excepteur. Do eu et labore nulla aute laboris eu. Lorem est Lorem
-              veniam adipisicing consectetur nostrud commodo deserunt.
+              
             </p>
             <div style={{ textAlign: "center" }}>
               <img

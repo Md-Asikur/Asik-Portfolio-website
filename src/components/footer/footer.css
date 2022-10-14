@@ -244,4 +244,14 @@ color: rgb(12, 185, 6);
 		color: #bbbbbb;
    
 }
+@media(max-width: 574px){
+  #copy-text{
+   
+    position: absolute;
+    left: 5%;
+		
+   
+}
+}
+
 

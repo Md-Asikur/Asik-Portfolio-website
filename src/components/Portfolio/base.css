@@ -38,4 +38,7 @@ div.counter{
   .counter{
     margin-bottom: 20px;
   }
+  #portfolio .hire{
+    font-size: 4.5rem;
+  }
 }

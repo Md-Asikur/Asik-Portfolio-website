@@ -54,10 +54,10 @@ export default function Terms() {
               owned by Me
             </h5>
             <h4>What personal data we collect and why we collect it</h4>
-            <h4>
+            <h4 data-aos="fade-left">
               <NavLink to="/">Comments</NavLink>
             </h4>
-            <h5>
+            <h5 data-aos="fade-right">
               When visitors leave comments on the site we collect the data shown in the
               comments form, and also the visitor’s IP address and browser user agent
               string to help spam detection. An anonymized string created from your email
@@ -67,22 +67,22 @@ export default function Terms() {
               approval of your comment, your profile picture is visible to the public in
               the context of your comment.
             </h5>
-            <h4>Media</h4>
-            <h5>
+            <h4 data-aos="fade-left">Media</h4>
+            <h5 data-aos="fade-right">
               If you upload images to the website, you should avoid uploading images with
               embedded location data (EXIF GPS) included. Visitors to the website can
               download and extract any location data from images on the website.
             </h5>
-            <h4>Contact Forms</h4>
-            <h5>
+            <h4 data-aos="fade-left">Contact Forms</h4>
+            <h5 data-aos="fade-right">
               We use Contact Form 7 plugin for a contact for. Information is received via
               email and stored there for 6 months without giving it for 3rd parties or
               using for marketing purposes.{" "}
               <NavLink to="/"> https://asikurpersonalPortfolio.com</NavLink> It is only
               there to provide answers to customer inquiries.
             </h5>
-            <h4>Cookies</h4>
-            <h5>
+            <h4 data-aos="fade-left">Cookies</h4>
+            <h5 data-aos="fade-right">
               If you leave a comment on our site you may opt-in to saving your name, email
               address and website in cookies. These are for your convenience so that you
               do not have to fill in your details again when you leave another comment.
@@ -100,8 +100,8 @@ export default function Terms() {
               simply indicates the post ID of the article you just edited. It expires
               after 1 day.
             </h5>
-            <h4>Who me share your data with</h4>
-            <h5>
+            <h4 data-aos="fade-left">Who me share your data with</h4>
+            <h5 data-aos="fade-right">
               The protection of your data is important to us. We may share your data with
               carefully selected and trusted third parties, including other companies in
               the Macat group and providers of services to us. We may share your data with
@@ -112,32 +112,32 @@ export default function Terms() {
               we share your data with agree to process that data only in ways that we
               permit them to and a way that complies with the law.
             </h5>
-            <h4>Additional information</h4>
-            <h5>
+            <h4 data-aos="fade-left">Additional information</h4>
+            <h5 data-aos="fade-right">
               We use an SSL certificate in order to encrypt any data sent between you and
               our server. All administrators of this website are required to use strong
               passwords in order to minimise any risk of unauthorised entry.
             </h5>
-            <h4>What data breach procedures we have in place</h4>
-            <h5>
+            <h4 data-aos="fade-left">What data breach procedures we have in place</h4>
+            <h5 data-aos="fade-right">
               In the case of a data breach we will inform the Information Latvian “Datu
               valsts inspekcija” (DVI) within 72 hours of the suspected breach. When we
               know information about a breach, we will provide this to individuals
               affected, together with advice to help them protect themselves from its
               effects.
             </h5>
-            <h4>What third parties we receive data from</h4>
-            <h5>We don't receive any data from third parties.</h5>
-            <h4>Industry regulatory disclosure requirements</h4>
-            <h5>
+            <h4 data-aos="fade-left">What third parties we receive data from</h4>
+            <h5 data-aos="fade-right">We don't receive any data from third parties.</h5>
+            <h4 data-aos="fade-left">Industry regulatory disclosure requirements</h4>
+            <h5 data-aos="fade-right">
               You have the right to lodge a complaint with theLatvian “Datu valsts
               inspekcija” (DVI) if you believe your personal information has been
               processed in a way that does not comply with the GDPR. You can do so by
               calling the DVI helpline on 67 22 31 31 or via their website
               <NavLink to="/"> https://asikurpersonalPortfolio.com</NavLink>
             </h5>
-            <h4>What data breach procedures we have in place</h4>
-            <h5>
+            <h4 data-aos="fade-left">What data breach procedures we have in place</h4>
+            <h5 data-aos="fade-right">
               In the case of a data breach we will inform the Information Latvian “Datu
               valsts inspekcija” (DVI) within 72 hours of the suspected breach. When we
               know information about a breach, we will provide this to individuals
